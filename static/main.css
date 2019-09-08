@@ -61,3 +61,7 @@ body {
 .itemContainer .item__image{
   width: 200px;
 }
+
+.category-wrapper {
+  padding:25px;
+}
