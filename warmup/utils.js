@@ -27,7 +27,7 @@ function getRandomIntInclusive(min, max) {
 //
 // console.log(items);
 
-const test = (a, b) => console.log(a === b ? "PASS" : `FAIL actual:${a} // expected:${b}`);
+const test = (a, b) => console.log(a === b ? `PASS` : `FAIL actual:${a} // expected:${b}`);
 
 module.exports = {
   test,
