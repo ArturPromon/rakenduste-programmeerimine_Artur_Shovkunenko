@@ -9,7 +9,13 @@
     <link href="./main.css" rel="stylesheet">
 
     <script>
-        alert("Hello world, item page!");
+        const x = window.location;
+        const urlParams = new URLSearchParams(window.location.search);
+        const title = urlParams.get("title");
+        const cost = urlParams.get("cost");
+        const src = urlParams.get("src");
+        alert('Title: ${title} cost: ${cost} path: ${src}');
+        console.log();
     </script>
 
 </head>
