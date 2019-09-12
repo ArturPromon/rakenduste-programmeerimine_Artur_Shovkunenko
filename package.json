@@ -1,0 +1,7 @@
+{
+  "name": "rakenduste-programmeerimine_artur_shovkunenko",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
