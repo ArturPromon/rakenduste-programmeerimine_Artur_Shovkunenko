@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.my-header{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+    background: yellow;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.header_logo{
+    width:150px;
+}
+
+.header_buttons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.content{
+    display: flex;
+}
+
+.item{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.item:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.8);
+    transition: .5s all;
+}
+
+.item img{
+    width: 300px;
+}
