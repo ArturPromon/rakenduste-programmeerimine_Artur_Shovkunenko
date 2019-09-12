@@ -9,4 +9,8 @@ app.get('/', (req, res) => {
 
 app.use(express.static('static'));
 
+app.listen(process.env.PORT || PORT, () => {
+    console.log("server started", PORT);
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
