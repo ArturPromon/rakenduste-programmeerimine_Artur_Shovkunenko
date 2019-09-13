@@ -48,7 +48,7 @@ function setupCategoryListener(){
 }
 
 function setup(){
-  // run only at homepage
+  // only homepage
   const root = document.getElementById("item-list");
   if(!root) return;
 
