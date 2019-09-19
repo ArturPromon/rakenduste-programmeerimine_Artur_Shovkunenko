@@ -27,7 +27,7 @@ utils.test(isNumberValid("200.not",{scale: 0}), false); // not a number
 utils.test(isNumberValid("0",{}), true);
 utils.test(isNumberValid("10.32",{scale: 1}), false);
 utils.test(isNumberValid("10.32",{scale: 3}), true);
-utils.test(isNumberValid("10.",{scale: 3}), false); // not a number
+utils.test(isNumberValid("10.",{scale: 0}), false); // number valid, but scale too low
 
 /**
  * Task 2
