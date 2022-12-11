@@ -7,7 +7,7 @@
     "start:dev": "npm run build && npm run start"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.4",
